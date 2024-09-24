@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        table {
+            border-collapse:double;
+            width: 20%;
+            margin: 20px auto;
+        }
+        table, th, td {
+            border: 2px solid black;
+            text-align: center;
+        }
+        th, td {
+            padding: 10px;
+        }
+        .flavor-row {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <table >
+        <tr>
+            <th>Product</th>
+            <th>Flavors</th>
+        </tr>
+        <tr>
+            <td rowspan="3">Milk</td>
+            <td class="flavor-row">Almond</td>
+        </tr>
+        <tr>
+            <td class="flavor-row">Mango</td>
+        </tr>
+        <tr>
+            <td class="flavor-row">Chocolate</td>
+        </tr>
+        <tr>
+            <td colspan="4">These are exclusive flavors</td>
+        </tr>
+    </table>
+    <h2><a href="./index.html">HOME BUTTON</a></h2>
+</body>
+</html>
